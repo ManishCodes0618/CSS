@@ -1,0 +1,18 @@
+div {
+  background-color: yellow;
+  border: 5px solid black;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+h1 {
+  margin: 100px;
+  padding: 50px;
+  background-color: olivedrab;
+  width: 300px;
+}
+span {
+  background-color: red;
+  border: 2px solid black;
+  display: block;
+}

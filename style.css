@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  color: red;
+  text-align: center;
+  text-decoration: aqua underline;
+  letter-spacing: 10px;
+  font-size: 80px;
+  font-family: monospace, cursive;
+}
+p {
+  line-height: 2;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+button:active {
+  color: yellow;
+  background-color: black;
+}
+
+.para:nth-of-type(n + 1) {
+  color: black;
+  background-color: yellow;
+}
+
+p:first-letter {
+  font-size: 50px;
+  color: red;
+}
+::selection {
+  background-color: #ffffff;
+}
+p::selection {
+  background-color: #ca5995;
+}
